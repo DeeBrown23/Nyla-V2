@@ -45,8 +45,8 @@ def parseCommand():
         return query
 
 def query_openai(prompt = ""):
-    openai.organization = 'org-1M2cbgdjE36l16JJYvDlGPpI'
-    openai.api_key = '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'
+    openai.organization = 'ORG_KEY'
+    openai.api_key = 'API_KEY'
      #Temperature is a measure of randonmess
      #Max_tokens is the number of tokens to generate
     response = openai.Completion.create(
